@@ -139,11 +139,20 @@ button:hover {
     color:#7d6f5e ;
 }
 
+.h-sec::selection {
+    background-color: #e7dcd0;
+    color: #3f290d;
+}
 .p-sec {
     padding-bottom: 30px;
     padding-left: 30px;
     font-family:'Nunito', sans-serif;
     color:#615649;
+}
+
+.p-sec::selection {
+    background-color: #3f290d;
+    color: white;
 }
 
 @media (max-width: 1081px){
