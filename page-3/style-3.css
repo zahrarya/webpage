@@ -74,7 +74,7 @@
     height: 300px;
     background-color: #fff;
     border-radius: 20px;
-    border: dashed rgb(43, 38, 33) 2px;
+    /* border: dashed rgb(43, 38, 33) 2px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,32 +82,20 @@
     margin: 20px;
 }
 
+.box:hover {
+    margin-top: 10px;
+}
+
 .pic-animal {
-    width: 150px;
+    width: 170px;
 }
 
-h3 , h4 {
+.marvel {
+    width: 100px;
+}
+
+h3 {
     font-family:'Nunito', sans-serif;
-}
-
-.rabbit {
-    color:rgb(130, 26, 59) ;
-}
-
-.dragon {
-    color: green;
-}
-
-.elephant {
-    color: rgb(154, 149, 143);
-}
-
-.pig {
-   color: rgb(226, 161, 183);
-}
-
-.fox {
-    color: rgb(165, 102, 25);
 }
 
 button {
@@ -126,6 +114,58 @@ button:hover {
     width: 100px;
     height: 40px;
 }
+
+.sec-2 {
+    /* background-color: rgb(240, 232, 222); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+    border-radius: 30px;
+}
+
+.table {
+    border: solid 1px rgb(60, 49, 25);
+}
+
+.table , td {
+    font-family:'Nunito', sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+
+}
+
+td {
+    margin: 5px;
+    background-color: #f5efea;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (max-width: 666px) {
+   td { 
+    padding-left: 30px;
+    padding-right: 30px;
+   }
+}
+
+@media (max-width: 511px) {
+    td { 
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 371px) {
+    td { 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
 @media (max-width: 1081px){
     .container-2 {
         padding: 0;
