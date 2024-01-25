@@ -137,6 +137,11 @@ button:hover {
     color: rgb(74, 61, 44);
 }
 
+.h-div::selection {
+    background-color:#e7dcd0 ;
+    color: #3f290d;
+}
+
 .p-div {
     padding: 10px;
     font-family:'Nunito', sans-serif;
