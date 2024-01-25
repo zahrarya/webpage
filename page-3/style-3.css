@@ -145,6 +145,11 @@ td {
     padding-right: 50px;
 }
 
+td:hover {
+    background-color: #6a604e;
+    color: #f5efea;
+}
+
 @media (max-width: 666px) {
    td { 
     padding-left: 30px;
