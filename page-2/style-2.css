@@ -74,7 +74,7 @@
     height: 300px;
     background-color: #fff;
     border-radius: 20px;
-    border: dashed rgb(43, 38, 33) 2px;
+    /* border: dashed rgb(43, 38, 33) 2px; */
     display: flex;
     justify-content: center;
     align-items: center;
