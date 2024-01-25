@@ -149,6 +149,11 @@ button:hover {
     text-align: left;
 }
 
+.p-div::selection {
+    background-color:#3f290d ;
+    color: #e7dcd0;
+}
+
 @media (max-width:903px) {
     .sec-2 {
         flex-direction: column;
