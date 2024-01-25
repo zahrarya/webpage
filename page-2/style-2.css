@@ -82,6 +82,10 @@
     margin: 20px;
 }
 
+.box:hover {
+    margin-top: 10px;
+}
+
 .pic-animal {
     width: 150px;
 }
