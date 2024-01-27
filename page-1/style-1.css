@@ -191,6 +191,13 @@ h1 {
     color: rgb(149, 125, 109);
 }
 
+.a-img:hover {
+    background-color: rgb(149, 125, 109);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 .div-sec:hover {
     margin-bottom: 50px;
     width: 370px;
